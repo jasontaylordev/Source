@@ -8,7 +8,8 @@ const {mergeLocales} = require('@tryghost/theme-translations/build');
 // gulp plugins and utils
 const livereload = require('gulp-livereload');
 const postcss = require('gulp-postcss');
-const zip = require('gulp-zip');
+const gulpZip = require('gulp-zip');
+const zip = gulpZip.default || gulpZip;
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const beeper = require('beeper');

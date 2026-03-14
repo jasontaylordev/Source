@@ -26,6 +26,11 @@
         </nav>
 
         <div class="gh-navigation-actions">
+            <div class="gh-navigation-social">
+                <a class="gh-icon-button" href="https://github.com/jasontaylordev" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">{{> "icons/github"}}</a>
+                <a class="gh-icon-button" href="https://www.linkedin.com/in/jasontaylordev" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">{{> "icons/linkedin"}}</a>
+                <a class="gh-icon-button" href="https://www.youtube.com/@jasontaylordev" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">{{> "icons/youtube"}}</a>
+            </div>
             {{#unless @site.members_enabled}}
                 {{^match navigationLayout "Stacked"}}
                     {{> "search-toggle"}}

@@ -3349,3 +3349,13 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
 .gh-footer-jasontaylordev-copyright a {
     text-decoration: underline;
 }
+.gh-navigation-social {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.gh-navigation-social .icon {
+    width: 20px;
+    height: 20px;
+}

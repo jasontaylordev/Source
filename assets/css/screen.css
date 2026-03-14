@@ -3333,3 +3333,6 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
 .pswp--minimal--dark .pswp__top-bar {
     background: none;
 }
+
+/* Custom */
+.gh-navigation-logo, .gh-footer-logo { display: none; }

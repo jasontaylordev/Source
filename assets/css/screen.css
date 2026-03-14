@@ -3335,4 +3335,17 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
 }
 
 /* Custom */
-.gh-navigation-logo, .gh-footer-logo { display: none; }
+.gh-navigation-logo { display: none; }
+
+.gh-footer-logo { display: none; }
+
+.gh-footer-signup { display: none; }
+
+.gh-footer-jasontaylordev-copyright {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.gh-footer-jasontaylordev-copyright a {
+    text-decoration: underline;
+}
